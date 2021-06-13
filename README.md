@@ -1,5 +1,6 @@
 # CMPT225
 **Data Structures and Programming**
+
 All the code in this class was written in C++
 
 These were the following projects:
