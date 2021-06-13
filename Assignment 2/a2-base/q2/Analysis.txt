@@ -1,0 +1,11 @@
+
+The total running time required to push n items onto the Stack would be O(1) time. 
+If the Stack is empty, both head and tail point to the new element.
+Otherwise, the last element is set to point to the new element, and the tail is set to point to the new element as well.
+These are O(1) time complexity steps, therefore the time complexity of push is O(1)
+
+
+The time complexity of the pop function is O(n).
+This is because, if the Stack is not empty, then two pointers must iterate through the entire Stack to reach the top and second elements.
+Only after that, the top element's data can be stored and returned, while the second element then points to NULL and is set as the top of the stack.
+A while loop was used to iterate through the stack, which is an O(n) operation.
